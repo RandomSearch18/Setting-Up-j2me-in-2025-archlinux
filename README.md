@@ -37,3 +37,7 @@ Install Netbeans 8.2. This requires an oracle account so I posted it here.
 * The examples plugin didn't install for you most likely, but I have extracted the Samples and put them in `Samples/` of this repo
 * You can also just create a new project (Box icon), select Java ME, and have your fun that way
 
+## Notes:
+* The run button is broken, install microemulator and build every time you need to run, running `microemulator (yourthing).jad` in the commandline
+* If you have images to submit to this guide, open a github issue and I'll be happy to add them
+* I didn't test this guide exactly in this order, but its still the correct steps to my knowledge
