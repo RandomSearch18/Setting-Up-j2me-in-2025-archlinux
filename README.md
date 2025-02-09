@@ -1,4 +1,5 @@
-So, you're trying to build a j2me application in 2025. I question your motives but heres the most up to guide on the internet for it.
+# Welcome hackclub retrospect refugees!
+If you're not from hackclub and you're trying to build a j2me application in 2025, I question your motives but heres the most up to guide on the internet for it. 
 
 ## Install a 32 bit JDK
 Extract [this](https://files.mercurywork.shop/rafflesia/java-8-openjdk-32.tar.gz) tarball file and move its contents into /usr/lib/jvm/java-8-openjdk-32. 
