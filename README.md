@@ -5,6 +5,9 @@ If you're not from hackclub and you're trying to build a j2me application in 202
 Extract [this](https://files.mercurywork.shop/rafflesia/java-8-openjdk-32.tar.gz) tarball file and move its contents into /usr/lib/jvm/java-8-openjdk-32. 
 Set it as your default jre with `sudo archlinux-java set java-8-openjdk-32`
 
+# Enable Multilib
+* I don't know exactly what you need installed but you need lib32-libxtst for sure
+
 # Download sun-wtk from the AUR
 * Self explanatory
 
