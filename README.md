@@ -1,20 +1,20 @@
 So, you're trying to build a j2me application in 2025. I question your motives but heres the most up to guide on the internet for it.
 
 ## Install a 32 bit JDK
-Extract this zip file and move its contents into /usr/lib/jvm/java-8-openjdk-32. 
+Extract [this](https://files.mercurywork.shop/rafflesia/java-8-openjdk-32.tar.gz) tarball file and move its contents into /usr/lib/jvm/java-8-openjdk-32. 
 Set it as your default jre with `sudo archlinux-java set java-8-openjdk-32`
 
 # Download sun-wtk from the AUR
 * Self explanatory
 
 # Download these plugins 
-1. Download *this* zip file
+1. Download [*this*](https://files.mercurywork.shop/rafflesia/oracle-jmesdk-3-4-rr-nb-plugins.zip) zip file
 2. extract this file
 3. You'll use this later
 
 ## Installing Mobility
 Install Netbeans 8.2. This requires an oracle account so I posted it here.
-1. Run the installer I linked
+1. Run the installer I linked [here](https://files.mercurywork.shop/rafflesia/netbeans-8.2-linux.sh)
 2. When asked for jvm, use the java-8-openjdk-32 you installed
 3. finish installation
 4. Open tools > plugins
