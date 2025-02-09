@@ -37,7 +37,7 @@ Install Netbeans 8.2. This requires an oracle account so I posted it here.
 4. Select `/opt/sun-wtk`
 5. Proceed and finish
 ### Note:
-If this fails, try setting your JAVA_HOME="/usr/lib/jvm/java-8-openjdk-32/" environment variable, and then launching netbeans. If this works, you can add it to /etc/environment
+If this fails, try setting your WTK_JRE_PATH="/usr/lib/jvm/java-8-openjdk-32/" environment variable, and then launching netbeans. If this works, you can add it to /etc/environment
 
 ## Creating your first project
 * The examples plugin didn't install for you most likely, but I have extracted the Samples and put them in `Samples/` of this repo
