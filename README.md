@@ -7,7 +7,9 @@ Download and extract [java-8-openjdk-32.tar.gz](https://files.mercurywork.shop/r
 Set it as your default jre with `sudo archlinux-java set java-8-openjdk-32`
 
 # Enable Multilib
-* I don't know exactly what you need installed but you need `lib32-libxtst` for sure
+* I don't know exactly what you need installed but libraries reported to me include
+* `lib32-libxtst`
+* `lib32-libxrender`
 
 # Download sun-wtk from the AUR
 * Self explanatory
@@ -25,11 +27,17 @@ Install Netbeans 8.2. This requires an oracle account so I posted it here.
 4. Open tools > plugins
 5. Install the **Mobility** Plugin
 
-## Installing the other plugins you need (Painful)
+## Installing the other plugins you need
 1. Go back to Tools > Plugins
 2. Open the Downloaded tab
 3. Click Add Plugins
-4. Select all the plugins from the zip file you used earlier. Some of them will give you an error. unselect these and try again until you have all the plugins you *can* install
+4. Select all the plugins from the zip file you used earlier except for the following:
+    * Java ME SDK CPU Profiler Snapshot Viewer
+    * Profiler (Java ME Projects Support)
+    * Profiler Ant Support
+    * Toolbar core
+    * Java ME SDK Welcome Screen.
+5. Install these plugins
 
 ## Setting the platform
 1. Go back to the main page and select Tools > Java Platforms
@@ -44,6 +52,9 @@ If this fails, try setting your `WTK_JRE_PATH="/usr/lib/jvm/java-8-openjdk-32/"`
 ## Creating your first project
 * The examples plugin didn't install for you most likely, but I have extracted the Samples and put them in `Samples/` of this repo
 * You can also just create a new project (Box icon), select Java ME, and have your fun that way
+
+## Fixing the inbuilt emulator
+* I recommend just running Microemulator as its less problematic but the inbuilt emulator can usually be fixed by running `sudo execstack -c /opt/sun-wtk/bin/*.so`. This requires the aur package https://aur.archlinux.org/packages/execstack. Some people report still having issues with Malloc, this seems to be system dependent.
 
 ## Notes:
 * The run button is broken, install microemulator and build every time you need to run, running `microemulator (yourthing).jad` in the commandline
