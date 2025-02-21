@@ -24,7 +24,7 @@ Install Netbeans 8.2. This requires an oracle account so I posted it here.
 1. Run the installer I linked [here](https://files.mercurywork.shop/rafflesia/netbeans-8.2-linux.sh)
 2. When asked for jvm, use the java-8-openjdk-32 you installed
 3. Finish installation
-4. Open tools > plugins
+4. Open Tools > Plugins
 5. Install the **Mobility** Plugin
 
 ## Installing the other plugins you need
@@ -36,7 +36,7 @@ Install Netbeans 8.2. This requires an oracle account so I posted it here.
     * Profiler (Java ME Projects Support)
     * Profiler Ant Support
     * Toolbar core
-    * Java ME SDK Welcome Screen.
+    * Java ME SDK Welcome Screen
 5. Install these plugins
 
 ## Setting the platform
